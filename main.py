@@ -134,6 +134,7 @@ def download_youtube_audio(search_query):
         "default_search": "ytsearch",
         "quiet": True,
         "outtmpl": "song.%(ext)s",
+        "cookiefile": "cookies.txt",  # Add this line
         "postprocessors": [
             {
                 "key": "FFmpegExtractAudio",
