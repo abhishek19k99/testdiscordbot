@@ -8,6 +8,8 @@ dependencies = [
     "beautifulsoup4>=4.13.3",
     "discord-py>=2.5.2",
     "pynacl>=1.5.0",
+    "python-dotenv>=1.1.0",
     "requests>=2.32.3",
+    "spotdl>=4.2.11",
     "yt-dlp>=2025.3.31",
 ]

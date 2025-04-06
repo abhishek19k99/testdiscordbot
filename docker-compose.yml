@@ -1,0 +1,16 @@
+services:
+  music-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: discord-music-bot
+    env_file: .env
+    restart: unless-stopped
+    volumes:
+      - .:/app        # Mounts your bot's source code
+      - ./downloads:/app/downloads  # Optional: to persist downloaded songs
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

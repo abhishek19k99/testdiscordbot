@@ -1,0 +1,61 @@
+2025-04-05 20:13:55,117 - music_bot - INFO - Bot token loaded: ✓
+2025-04-05 20:13:55,117 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-04-05 20:13:55,117 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-04-05 20:13:55,117 - music_bot - INFO - Starting bot
+2025-04-05 20:13:55,118 - asyncio - DEBUG - Using selector: EpollSelector
+2025-04-05 20:13:55,118 - discord.client - INFO - logging in using static token
+2025-04-05 20:13:56,809 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4de6b6ef8c5113c10bba59c28e01258f).
+2025-04-05 20:13:58,818 - music_bot - INFO - Connected to 1 guilds:
+2025-04-05 20:13:58,818 - music_bot - INFO - - snowflakesmasher86's server (ID: 1358080127376035981)
+2025-04-05 20:13:58,818 - music_bot - INFO - Bot is online as nihilist bot#2949
+2025-04-05 20:14:07,241 - music_bot - INFO - Play command received: https://open.spotify.com/album/5FjaEW3Hi8vD2aoJNWln4t?si=hkK2izxMRX-dGufc5oI6ew
+2025-04-05 20:14:07,241 - music_bot - INFO - User in voice channel: General
+2025-04-05 20:14:07,241 - music_bot - INFO - Connecting to voice channel: General
+2025-04-05 20:14:07,242 - discord.voice_state - INFO - Connecting to voice...
+2025-04-05 20:14:07,242 - discord.voice_state - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-05 20:14:07,752 - discord.voice_state - INFO - Voice handshake complete. Endpoint found: india10042.discord.media
+2025-04-05 20:14:08,333 - discord.voice_state - INFO - Voice connection complete.
+2025-04-05 20:14:08,334 - music_bot - INFO - URL type: album
+2025-04-05 20:14:08,334 - music_bot - INFO - Processing album
+2025-04-05 20:14:08,757 - music_bot - INFO - Extracting tracks from Spotify URL: https://open.spotify.com/album/5FjaEW3Hi8vD2aoJNWln4t?si=hkK2izxMRX-dGufc5oI6ew
+2025-04-05 20:14:08,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): open.spotify.com:443
+2025-04-05 20:14:08,947 - urllib3.connectionpool - DEBUG - https://open.spotify.com:443 "GET /album/5FjaEW3Hi8vD2aoJNWln4t?si=hkK2izxMRX-dGufc5oI6ew HTTP/1.1" 200 None
+2025-04-05 20:14:08,949 - music_bot - INFO - Response status code: 200
+2025-04-05 20:14:08,949 - music_bot - INFO - Saved response HTML to spotify_response.html
+2025-04-05 20:14:08,950 - music_bot - INFO - Found 2 script tags
+2025-04-05 20:14:08,950 - music_bot - INFO - Trying alternative method with embedded data
+2025-04-05 20:14:08,951 - music_bot - WARNING - No tracks found using any method
+2025-04-05 20:14:08,951 - music_bot - INFO - Extracted 0 tracks
+2025-04-05 20:14:08,951 - music_bot - WARNING - No tracks found in album
+2025-04-05 20:16:29,690 - discord.voice_state - INFO - The voice handshake is being terminated for Channel ID 1358080127376035985 (Guild ID 1358080127376035981)
+2025-04-05 20:22:18,507 - music_bot - INFO - Bot token loaded: ✓
+2025-04-05 20:22:18,507 - asyncio - DEBUG - Using selector: EpollSelector
+2025-04-05 20:22:18,507 - discord.client - INFO - logging in using static token
+2025-04-05 20:22:20,446 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a2a88db7825ffe45bb2a08b74b43e9dd).
+2025-04-05 20:22:28,802 - music_bot - INFO - Bot token loaded: ✓
+2025-04-05 20:22:28,803 - asyncio - DEBUG - Using selector: EpollSelector
+2025-04-05 20:22:28,803 - discord.client - INFO - logging in using static token
+2025-04-05 20:22:30,468 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bacf3b5ed6ffa564fab895de895673be).
+2025-04-05 20:22:42,787 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "play" is not found
+2025-04-05 20:26:49,941 - music_bot - INFO - Bot token loaded: ✓
+2025-04-05 20:26:49,941 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-04-05 20:26:49,941 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-04-05 20:26:49,942 - music_bot - INFO - Starting bot...
+2025-04-05 20:26:49,942 - asyncio - DEBUG - Using selector: EpollSelector
+2025-04-05 20:26:49,942 - discord.client - INFO - logging in using static token
+2025-04-05 20:26:51,872 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 01b9508c10f960fdf90dd65855ff0c00).
+2025-04-05 20:26:53,875 - music_bot - INFO - Connected to 1 guilds:
+2025-04-05 20:26:53,876 - music_bot - INFO - - snowflakesmasher86's server (ID: 1358080127376035981)
+2025-04-05 20:26:53,876 - music_bot - INFO - Bot is online as nihilist bot#2949
+2025-04-05 20:26:59,054 - music_bot - INFO - Play command received: https://open.spotify.com/album/5FjaEW3Hi8vD2aoJNWln4t?si=hkK2izxMRX-dGufc5oI6ew
+2025-04-05 20:26:59,055 - discord.voice_state - INFO - Connecting to voice...
+2025-04-05 20:26:59,055 - discord.voice_state - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-05 20:26:59,577 - discord.voice_state - INFO - Voice handshake complete. Endpoint found: india10042.discord.media
+2025-04-05 20:27:05,282 - discord.voice_state - INFO - Voice connection complete.
+2025-04-05 20:27:05,283 - music_bot - INFO - Extracting tracks from Spotify URL: https://open.spotify.com/album/5FjaEW3Hi8vD2aoJNWln4t?si=hkK2izxMRX-dGufc5oI6ew
+2025-04-05 20:27:05,284 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): open.spotify.com:443
+2025-04-05 20:27:05,569 - urllib3.connectionpool - DEBUG - https://open.spotify.com:443 "GET /album/5FjaEW3Hi8vD2aoJNWln4t?si=hkK2izxMRX-dGufc5oI6ew HTTP/1.1" 200 None
+2025-04-05 20:27:05,570 - music_bot - INFO - Detected Spotify content type: album
+2025-04-05 20:27:05,571 - music_bot - WARNING - No embedded data found
+2025-04-05 20:27:25,489 - discord.voice_state - INFO - The voice handshake is being terminated for Channel ID 1358080127376035985 (Guild ID 1358080127376035981)
